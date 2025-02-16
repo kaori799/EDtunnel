@@ -1,14 +1,14 @@
-name = "tencent"
+name = "ovh"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 [[routes]]
-pattern = "alamak.biz.id"
+pattern = "ovh.alamak.biz.id"
 custom_domain = true
 
 [vars]
-PROXYIP = "43.128.95.84:38091"
+PROXYIP = "15.235.199.103:2053"
 UUID = "8963674b-d4b5-4cdb-ab7d-a238fa113136"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
