@@ -1,14 +1,14 @@
-name = "telkom"
+name = "media"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 [[routes]]
-pattern = "telkom.alamak.biz.id"
+pattern = "media.alamak.biz.id"
 custom_domain = true
 
 [vars]
-PROXYIP = "36.95.152.58:12137"
+PROXYIP = "103.6.207.108:8080"
 UUID = "8963674b-d4b5-4cdb-ab7d-a238fa113136"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
