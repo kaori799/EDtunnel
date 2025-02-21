@@ -6,6 +6,7 @@ workers_dev = true
 [[routes]]
 pattern = "test.alamak.biz.id"
 custom_domain = true
+[[routes]]
 pattern = "support.zoom.us.test.alamak.biz.id"
 custom_domain = true
 [vars]
